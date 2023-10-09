@@ -1,14 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Notícia</title>
 </head>
+
 <body>
+    <nav class="navbar nav navbar-expand-lg">
+        <div class=" container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="250px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+                <div class="d-flex " role="search">
+                    <ul class=" navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Empregos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Currículos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Classificados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="noticia.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container mt-5">
+            <div class="row">
+
+                <!-- Lista -->
+                <div class="list-group col-sm-12 col-md-4 rounded-0 border" style="height: 242px;">
+                    <button type="button" class="border-0 text-danger list-group-item list-group-item-action">Dicas para
+                        empregos</button>
+                    <button type="button"
+                        class="border-0 text-danger list-group-item list-group-item-action">Diversos</button>
+                    <button type="button"
+                        class="border-0 text-danger list-group-item list-group-item-action">Eventos</button>
+                    <button type="button"
+                        class="border-0 text-danger list-group-item list-group-item-action">Notícias</button>
+                    <button type="button"
+                        class="border-0 text-danger list-group-item list-group-item-action">Octoberfest</button>
+                    <button type="button"
+                        class="border-0 text-danger list-group-item list-group-item-action">Urgente</button>
+                </div>
     
+                <!-- Conteúdo -->
+                <div class="col-sm-12 col-md-7 justify-content-end float-end">
+                    <div class="card rounded-0 ">
+                        <img class="p-3" src="https://www.bnuonline.com.br/upload/variedades/1696868058/50_am_08_whatsapp_image_2023_10_09_at_9.jpeg" class="card-img-top rounded-0">
+                        <div class="card-body">
+                            <h3 class="card-title text-danger">Enchentes: Corpo de Bombeiros reforça o atendimento em Taió por conta dos estragos causados pela chuva</h3>
+    
+                            <p class="card-text mt-4">O Alto Vale do Itajaí ainda está em alerta nesta segunda-feira, 9, por conta do nível dos rios que cortam a região. A cidade de Taió foi bastante castigada com a enchente e por isso o comando dos Bombeiros reforçou o trabalho na cidade. As equipes atuam, principalmente, na retirada de famílias das &a(...)
+                            </p>
+    
+                            <div class="linha bg-dark mt-4 mb-4"></div>
+    
+    
+                            <a href="#" class="btn me-2 btn-danger rounded-0">Urgente</a>
+                            <a href="#" class="btn me-2 btn-secondary rounded-0">Hoje</a>
+                            <a href="#" class=" text-danger text-decoration-none ">ler</a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </main>
+
+     <!-- Footer -->
+     <footer class="mt-5">
+        <div class="container">
+            <div class="row text-white p-4">
+                <div class="col-md-4 col-sm-12">
+                    <h4>BLUMENAL ONLINE</h4>
+                    <p>Um portal de oportunidades</p>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <h4>Anuncie Conosco</h4>
+                    <a class="text-decoration-none text-white" href="#">Danigmichels@gmail.com</a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h4>Veja Também:</h4>
+                    <ul class="p-0">
+                        <li><a class="text-decoration-none text-white " href="index.html">Home</a></li>
+                        <li><a class="text-decoration-none text-white " href="#">Empregos</a></li>
+                        <li><a class="text-decoration-none text-white " href="#">currículos</a></li>
+                        <li><a class="text-decoration-none text-white " href="#">Classificados</a></li>
+                        <li><a class="text-decoration-none text-white " href="noticia.html">Blog</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Direitos autorais -->
+        <div class="row container-fluid text-center text-white bg-direitos p-4">
+            <p>© 2023 Blumenau Online | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
